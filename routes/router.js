@@ -8,7 +8,6 @@ router.get('/', (req, res) => {
 });
 
 router.get('/register', (req, res) => {
-    // res.send('her');
     res.render('pages/register');
 });
 
